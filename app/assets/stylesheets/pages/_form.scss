@@ -1,0 +1,44 @@
+.sign-up-container {
+  margin: auto;
+  width: 70%;
+  margin-top: 120px;
+  h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  a {
+    color: #1d9bf0;
+    &:hover {
+      color: #1371af;
+    }
+  }
+}
+input {
+  width: 100%;
+  border-radius: 4px;
+  height: 40px;
+  border: 2px solid #cfd9de;
+  &:hover {
+    color: #1371af;
+  }
+}
+input:focus {
+	outline: none;
+  border: 2px solid #1d9bf0;
+}
+.field {
+  margin-top: 10px;
+  label {
+    color: #393e41;
+  }
+}
+
+.actions {
+  input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #1d9bf0 !important;
+    color: white;
+    border: white;
+  }
+}
